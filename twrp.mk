@@ -19,6 +19,6 @@ PRODUCT_COPY_FILES += \
 DEVICE_RESOLUTION := 800x1280
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_SDCARD_ON_DATA := true
+TW_BRIGHTNESS_PATH := /sys/devices/platform/pwm-backlight/backlight/pwm-backlight/brightness
 TW_NO_USB_STORAGE := false
 TW_INCLUDE_JB_CRYPTO := true
-
